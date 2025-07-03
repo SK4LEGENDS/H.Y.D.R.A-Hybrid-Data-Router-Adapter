@@ -39,16 +39,16 @@
    ![Workflow](/Flowchart.jpg)
 
 2. **Excel Data Sample**  
-   ![Excel](/excel-preview.png)
+   ![Excel](/Checking Data from Excel to Supabase.jpg)
 
 3. **Supabase Table Output**  
    ![Supabase](images/supabase-table.png)
 
-4. **Migration Log Report**  
-   ![Log](images/log-report.png)
+4. **Excel Database**  
+   ![Log](/Excel.jpeg)
 
-5. **API Integration Flow**  
-   ![API](images/api-diagram.png)
+5. **Supabase Database**  
+   ![API](/Supabase.jpeg)
 
 ---
 
