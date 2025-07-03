@@ -38,11 +38,11 @@
 1. **UiPath Workflow Overview**  
    ![Workflow](/Flowchart.jpg)
 
-2. **Excel Data Sample**  
-   ![Excel](/Checking-Data-from-Excel-to-Supabase.jpg)
+2. **Flow of data moving from Excel tp Supabase**  
+   ![Excel](/Excel_to_Supabase.jpg)
 
-3. **Supabase Table Output**  
-   ![Supabase](images/supabase-table.png)
+3. **Flow of data moving from Supabase to Excel**  
+   ![Supabase](/Supabase_to_Excel.jpg)
 
 4. **Excel Database**  
    ![Log](/Excel.jpeg)
