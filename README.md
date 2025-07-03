@@ -39,7 +39,7 @@
    ![Workflow](/Flowchart.jpg)
 
 2. **Excel Data Sample**  
-   ![Excel](/Checking Data from Excel to Supabase.jpg)
+   ![Excel](/Checking-Data-from-Excel-to-Supabase.jpg)
 
 3. **Supabase Table Output**  
    ![Supabase](images/supabase-table.png)
