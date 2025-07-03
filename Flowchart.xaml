@@ -102,7 +102,7 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Flowchart" sap:VirtualizedContainerService.HintSize="1479.2,480.8" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Flowchart" sap:VirtualizedContainerService.HintSize="1479.2,622.4" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:String" Name="Result" />
     </Flowchart.Variables>
@@ -178,7 +178,7 @@
                 </Assign>
                 <ui:DeserializeJsonArray DisplayName="Deserializing JSON" sap:VirtualizedContainerService.HintSize="510.4,92" sap2010:WorkflowViewState.IdRef="DeserializeJsonArray_2" JsonArray="[JSON_Array]" JsonString="[JSON_String]" />
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="510.4,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Data is convertd to JSON Array&quot;]" />
-                <ui:HttpClient ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="JSON" AuthenticationType="None" Body="[JSON_Array.ToString()]" BodyFormat="application/json" DisplayName="HTTP Request" EnableSSLVerification="True" EndPoint="https://xapnizqxmvkghzldjkrj.supabase.co/rest/v1/Client_Dt" sap:VirtualizedContainerService.HintSize="510.4,103.2" sap2010:WorkflowViewState.IdRef="HttpClient_2" Method="POST" TimeoutMS="6000">
+                <ui:HttpClient ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" EndPoint="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" Result="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="JSON" AuthenticationType="None" Body="[JSON_Array.ToString()]" BodyFormat="application/json" DisplayName="HTTP Request" EnableSSLVerification="True" sap:VirtualizedContainerService.HintSize="510.4,103.2" sap2010:WorkflowViewState.IdRef="HttpClient_2" Method="POST" TimeoutMS="6000">
                   <ui:HttpClient.Attachments>
                     <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
                   </ui:HttpClient.Attachments>
@@ -186,8 +186,8 @@
                     <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
                   </ui:HttpClient.Cookies>
                   <ui:HttpClient.Headers>
-                    <InArgument x:TypeArguments="x:String" x:Key="authorization">Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhhcG5penF4bXZrZ2h6bGRqa3JqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNjA4MDE0NCwiZXhwIjoyMDUxNjU2MTQ0fQ.3xTeW3DpmyOIBmhghYvqIV_kpxs-XWPaID1swJhZCmE</InArgument>
-                    <InArgument x:TypeArguments="x:String" x:Key="apikey">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhhcG5penF4bXZrZ2h6bGRqa3JqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNjA4MDE0NCwiZXhwIjoyMDUxNjU2MTQ0fQ.3xTeW3DpmyOIBmhghYvqIV_kpxs-XWPaID1swJhZCmE</InArgument>
+                    <InArgument x:TypeArguments="x:String" x:Key="authorization" />
+                    <InArgument x:TypeArguments="x:String" x:Key="apikey" />
                     <InArgument x:TypeArguments="x:String" x:Key="content-type">application/json</InArgument>
                     <InArgument x:TypeArguments="x:String" x:Key="Prefer">return=minimal</InArgument>
                   </ui:HttpClient.Headers>
@@ -213,7 +213,7 @@
           <av:Size x:Key="ShapeSize">110.4,70.4</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence DisplayName="Checking data from dt to excel" sap:VirtualizedContainerService.HintSize="110.4,70.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+      <Sequence DisplayName="Checking data from dt to excel" sap:VirtualizedContainerService.HintSize="601.6,1484.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
         <Sequence.Variables>
           <Variable x:TypeArguments="x:String" Name="JSON_Response" />
           <Variable x:TypeArguments="njl:JArray" Name="parsedJson" />
@@ -224,7 +224,7 @@
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <ui:HttpClient ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="JSON" AuthenticationType="None" Body="[JSON_Response]" BodyFormat="application/json" DisplayName="HTTP Request" EnableSSLVerification="True" EndPoint="https://xapnizqxmvkghzldjkrj.supabase.co/rest/v1/Client_Dt" sap:VirtualizedContainerService.HintSize="568,103.2" sap2010:WorkflowViewState.IdRef="HttpClient_5" Method="GET" Result="[JSON_Response]" TimeoutMS="6000">
+        <ui:HttpClient ClientCertificate="{x:Null}" ClientCertificatePassword="{x:Null}" ConsumerKey="{x:Null}" ConsumerSecret="{x:Null}" ContinueOnError="{x:Null}" EndPoint="{x:Null}" FileAttachments="{x:Null}" OAuth1Token="{x:Null}" OAuth1TokenSecret="{x:Null}" OAuth2Token="{x:Null}" Password="{x:Null}" ResourcePath="{x:Null}" ResponseAttachment="{x:Null}" ResponseHeaders="{x:Null}" SecureClientCertificatePassword="{x:Null}" SecurePassword="{x:Null}" StatusCode="{x:Null}" Username="{x:Null}" AcceptFormat="JSON" AuthenticationType="None" Body="[JSON_Response]" BodyFormat="application/json" DisplayName="HTTP Request" EnableSSLVerification="True" sap:VirtualizedContainerService.HintSize="568,103.2" sap2010:WorkflowViewState.IdRef="HttpClient_5" Method="GET" Result="[JSON_Response]" TimeoutMS="6000">
           <ui:HttpClient.Attachments>
             <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
           </ui:HttpClient.Attachments>
@@ -232,8 +232,8 @@
             <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
           </ui:HttpClient.Cookies>
           <ui:HttpClient.Headers>
-            <InArgument x:TypeArguments="x:String" x:Key="authorization">Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhhcG5penF4bXZrZ2h6bGRqa3JqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNjA4MDE0NCwiZXhwIjoyMDUxNjU2MTQ0fQ.3xTeW3DpmyOIBmhghYvqIV_kpxs-XWPaID1swJhZCmE</InArgument>
-            <InArgument x:TypeArguments="x:String" x:Key="apikey">eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhhcG5penF4bXZrZ2h6bGRqa3JqIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczNjA4MDE0NCwiZXhwIjoyMDUxNjU2MTQ0fQ.3xTeW3DpmyOIBmhghYvqIV_kpxs-XWPaID1swJhZCmE</InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="authorization" />
+            <InArgument x:TypeArguments="x:String" x:Key="apikey" />
             <InArgument x:TypeArguments="x:String" x:Key="content-type">application/json</InArgument>
             <InArgument x:TypeArguments="x:String" x:Key="Prefer">return=minimal</InArgument>
           </ui:HttpClient.Headers>
