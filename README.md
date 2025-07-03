@@ -1,8 +1,6 @@
-# 🐉 H.Y.D.R.A – Hybrid Data Router & Adapter
+#  H.Y.D.R.A – Hybrid Data Router & Adapter
 
 > A bi-directional data migration system for Excel and Supabase, powered by UiPath automation workflows.
-
-![HYDRA Banner](images/banner.png) <!-- Image 1: A banner or logo -->
 
 ---
 
